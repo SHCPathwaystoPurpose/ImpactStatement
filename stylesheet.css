@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+/**Magnet & Container**/
+.magnet-word-container {
+  float: right;
+}
+
+.bucket {
+  position: relative;
+  margin: right;
+  height: auto;
+  width: 100%;
+  overflow: hide;
+  padding: 1rem;
+}
+
+.magnet {
+  position: relative;
+  z-index: 0;
+  background-color: white;
+  box-shadow: 0 1px 2px 0 #999;
+  display: inline-block;
+  padding: 0.4em 0.5em;
+  margin-right: 2px;
+  font-family: serif;
+  font-size: 18px;
+  cursor: move;
+}
+
+/**Design**/
+h2 {
+  font-family: 'Roboto';
+  text-transform: uppercase;
+}
+
+.box-purple {
+background-color: #3d1951;
+  color: #fff;
+  text-align: center;
+  height: 30em;
+}
+
+img {
+  max-height: 175px;
+}
+
+/**Columns & Rows**/
+
+.col-30 {
+  width: 30%;
+  text-align: center;
+}
+
+.col-50 {
+  width: 45%;
+  text-align: center;
+}
+
+.row {
+  align: center;
+  width: 100%;
+
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+  padding: 10px;
+}
+[class*="col-"] {
+ float: left;
+  padding: .5%;
+}
