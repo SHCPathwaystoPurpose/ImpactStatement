@@ -50,6 +50,26 @@ img {
 
 /**Columns & Rows**/
 
+@-ms-viewport {
+	width: device-width;
+}
+
+@viewport {
+	width: device-width;
+}
+
+
+@media screen and (max-width: 500px) {
+  .col-30 {
+    width: 95%
+  }
+  
+  .col-50 {
+    width: 95%
+  }
+ }
+
+
 .col-30 {
   width: 30%;
   text-align: center;
